@@ -106,6 +106,17 @@
 
 ---
 
+#### git show
+
+Show a commit's metadata and diff (defaults to `HEAD`).
+
+- Examples:
+    - Show all changes in commit: `git --no-pager show <commit>`
+- Flags:
+    - `--no-pager`: Global option (goes before the subcommand), prints directly to stdout instead of interactive view, useful in scripts and CI
+
+---
+
 ### Media
 
 #### ffmpeg (Trim Video)
